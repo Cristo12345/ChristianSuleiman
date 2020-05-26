@@ -2,7 +2,21 @@ body {
     background-color: black;
 }
 
+#intro-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #typed {
-    font-family: Consolas, Courier-New, monospace;
+    font-family: Consolas, Courier-New, Monospace;
+    font-size: 2em;
     color: white;
+    
 } 
+
+.typed-cursor {
+    color: white;
+    font-size: 2em;
+}

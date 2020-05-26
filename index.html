@@ -15,18 +15,22 @@
 <body>
 
     <!-- SEO Friendly TypedJS intro -->
-    <div id="intro">
-        <h2>Computer Science</h2>
-        <h2>Christian Suleiman</h2>
+    <div id="intro-wrapper">
+        <div id="intro">
+            <h2>$ cd Computer Science</h2>
+            <h2>$ cd Considerate Software</h2>
+            <h2>$ cd Christian Suleiman</h2>
+        </div>
+        <span id="typed"></span>
+        <script>
+            var typed = new Typed('#typed', {
+                stringsElement: '#intro',
+                backSpeed: 40,
+                typeSpeed: 40,
+                smartBackspace: true
+            });
+        </script>
     </div>
-    <span id="typed"></span>
-    <script>
-        var typed = new Typed('#typed', {
-            stringsElement: '#intro',
-            backSpeed: 40,
-            typeSpeed: 40
-        });
-    </script>
-    
 </body>
+
 </html>
