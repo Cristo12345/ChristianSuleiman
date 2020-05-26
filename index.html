@@ -4,11 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta title="Christian Suleiman">
 
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+
+    <!-- Typed.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
 </head>
 
 <body>
-    <h1>Hello, world</h1>
+
+    <!-- SEO Friendly TypedJS intro -->
+    <div id="intro">
+        <h2>Computer Science</h2>
+        <h2>Christian Suleiman</h2>
+    </div>
+    <span id="typed"></span>
+    <script>
+        var typed = new Typed('#typed', {
+            stringsElement: '#intro',
+            backSpeed: 40,
+            typeSpeed: 40
+        });
+    </script>
+    
 </body>
 </html>

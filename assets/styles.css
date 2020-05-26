@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+}
+
+#typed {
+    font-family: Consolas, Courier-New, monospace;
+    color: white;
+} 
