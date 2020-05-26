@@ -9,14 +9,18 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#typed {
+#typed, #main {
     font-family: Consolas, Courier-New, Monospace;
-    font-size: 2em;
-    color: white;
-    
+    font-size: 3em;
+    color: silver;
 } 
+
+#typed span {
+    color: white;
+    font-weight: bold;
+}
 
 .typed-cursor {
     color: white;
-    font-size: 2em;
+    font-size: 3em;
 }
