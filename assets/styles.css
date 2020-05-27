@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #1E1E1E;
 }
 
 #intro-wrapper {
@@ -7,20 +7,24 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    white-space: nowrap;
 }
 
 #typed, #main {
     font-family: Consolas, Courier-New, Monospace;
     font-size: 3em;
-    color: silver;
+    color: #D4D4D4;
+    
 } 
 
 #typed span {
-    color: white;
+    color:#FFFFFF;
     font-weight: bold;
 }
 
 .typed-cursor {
-    color: white;
+    color:#FFFFFF;
     font-size: 3em;
 }
+
+/* TODO: set media query for phones and set intro font to 1.5em */
