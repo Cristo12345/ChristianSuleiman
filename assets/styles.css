@@ -10,11 +10,10 @@ body {
     white-space: nowrap;
 }
 
-#typed, #main {
+#typed {
     font-family: Consolas, Courier-New, Monospace;
     font-size: 3em;
     color: #D4D4D4;
-    
 } 
 
 #typed span {
@@ -37,24 +36,34 @@ body {
 }
 
 .navbar-brand {
-    transform: translateX(-50%);
-    left: 50%;
-    position: relative;
+    font-family: 'Roboto';
+    font-size: 2.5vw;
+}
 
+.nav-link {
+    color: #D0D0D0;
     font-family: Consolas, Courier-New, Monospace;
-    font-size: 3vw;
+}
+
+.nav-item a:hover {
+    color: #FFFFFF
 }
 
 .fa {
     padding: 5px;
-    font-size: 25px;
+    font-size: 2.75vw;
     width: 50px;
     text-decoration: none;
-    color: white;
+    color: #D0D0D0;
 }
 
 .fa:hover {
-    opacity: 0.7;
+    color: #FFFFFF
 }
 
 /* TODO: set media query for phones and set intro font to 1.5em */
+@media screen and (max-width: 850px) {
+    #typed {
+        font-size: 1.5em;
+    }
+}
