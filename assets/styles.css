@@ -1,5 +1,7 @@
 body {
     background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Roboto', 'Courier New', Courier, monospace;
 }
 
 #intro-wrapper {
@@ -43,6 +45,7 @@ body {
 .nav-link {
     color: #D0D0D0;
     font-family: Consolas, Courier-New, Monospace;
+    font-size: 2vw;
 }
 
 .nav-item a:hover {
@@ -59,6 +62,11 @@ body {
 
 .fa:hover {
     color: #FFFFFF
+}
+
+#aboutText {
+    margin: auto;
+    width: 80%;
 }
 
 /* TODO: set media query for phones and set intro font to 1.5em */
