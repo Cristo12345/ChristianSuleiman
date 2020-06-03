@@ -67,6 +67,7 @@ body {
 #aboutText {
     margin: auto;
     width: 80%;
+    font-size: larger;
 }
 
 /* TODO: set media query for phones and set intro font to 1.5em */
