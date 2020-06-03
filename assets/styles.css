@@ -64,15 +64,33 @@ body {
     color: #FFFFFF
 }
 
-#aboutText {
+#About {
+    width: 100%;
+}
+
+.aboutText {
     margin: auto;
     width: 80%;
-    font-size: larger;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#selfie {
+    width: 27.7%;
+    height: 27.7%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 2rem;
+    shape-outside: circle();
 }
 
 /* TODO: set media query for phones and set intro font to 1.5em */
 @media screen and (max-width: 850px) {
     #typed {
         font-size: 1.5em;
+    }
+
+    #aboutText {
+        font-size: 3vw;
     }
 }
