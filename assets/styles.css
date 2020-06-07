@@ -66,9 +66,10 @@ body {
 
 #About {
     width: 100%;
+    padding-top: 80px;
 }
 
-.aboutText {
+.text {
     margin: auto;
     width: 80%;
     font-size: 20px;
