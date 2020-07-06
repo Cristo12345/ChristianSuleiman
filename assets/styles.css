@@ -64,10 +64,28 @@ body {
     color: #FFFFFF
 }
 
+.card {
+    background-color: #1E1E1E;
+}
+
+.card-body {
+    padding: 1.25rem 0 0;
+}
+
+.card text {
+    color: #D0D0D0; 
+}
+
+.card-img-top {
+    height: 15vw;
+    object-fit: cover;
+}
+
+
 #About {
     width: 100%;
     padding-top: 80px;
-    padding-bottom: 300px;
+    padding-bottom: 75px;
 }
 
 .text {
