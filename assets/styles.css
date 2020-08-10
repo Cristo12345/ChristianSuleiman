@@ -8,6 +8,10 @@ body {
     font-family: 'Roboto', 'Courier New', Courier, monospace;
 }
 
+.row {
+    padding: 25px 0 25px 0;
+}
+
 #intro-wrapper {
     position: fixed;
     top: 50%;
@@ -89,7 +93,7 @@ body {
 #About {
     width: 100%;
     padding-top: 80px;
-    padding-bottom: 75px;
+    padding-bottom: 25px;
 }
 
 .text {
