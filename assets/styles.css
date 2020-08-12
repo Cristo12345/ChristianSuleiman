@@ -8,8 +8,8 @@ body {
     font-family: 'Roboto', 'Courier New', Courier, monospace;
 }
 
-.row {
-    padding: 25px 0 25px 0;
+.container-fluid {
+    padding: 20px 0 20px 0;
 }
 
 #intro-wrapper {
@@ -91,7 +91,6 @@ body {
 
 
 #About {
-    width: 100%;
     padding-top: 80px;
     padding-bottom: 25px;
 }
