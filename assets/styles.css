@@ -113,7 +113,6 @@ body {
     shape-outside: circle();
 }
 
-/* TODO: set media query for phones and set intro font to 1.5em */
 @media screen and (max-width: 850px) {
     #typed {
         font-size: 1.5em;
