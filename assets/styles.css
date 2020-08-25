@@ -107,6 +107,8 @@ body {
     height: 20%;
     min-width: 190px;
     min-height: 190px;
+    max-width: 195px;
+    max-height: 195px;
     border-radius: 50%;
     float: left;
     margin-right: 2rem;
