@@ -121,4 +121,12 @@ body {
     #aboutText {
         font-size: 3vw;
     }
+
+    #selfie {
+        display: none;
+    }
+    
+    .text {
+        text-align: center;
+    }
 }
